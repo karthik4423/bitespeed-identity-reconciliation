@@ -7,8 +7,8 @@ router.post('/identify', async (req, res) => {
     const response = await controller.handleIdentify(req);
     return res.status(response?.status || 200).send({ msg: 'Success', response });
   } catch (err) {
-    console.log(err);
-    return res.status(err.status).send({ msg: err.message, response: err });
+    console.log(err, Object.keys(err));
+    return res.status(err.status || 500).send({ msg: err.message, response: err });
   }
 });
 module.exports = router;
