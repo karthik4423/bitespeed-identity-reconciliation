@@ -1,9 +1,9 @@
 const config = {
-  host: 'localhost',
-  port: 3306,
+  host: 'db-mysql-blr1-92842-do-user-5069941-0.b.db.ondigitalocean.com',
+  port: 25060,
   database: 'bitespeed',
-  user: 'root',
-  password: 'password'
+  user: 'doadmin',
+  password: 'AVNS_GiYZPjsB9jNH-XJi-JJ'
 };
 
 module.exports = config;
