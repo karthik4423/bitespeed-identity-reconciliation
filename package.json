@@ -1,0 +1,22 @@
+{
+  "name": "bitespeed-identity-reconciliation",
+  "version": "1.0.0",
+  "description": "bitespeed backend task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthik4423/bitespeed-identity-reconciliation.git"
+  },
+  "author": "Karthik Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthik4423/bitespeed-identity-reconciliation/issues"
+  },
+  "homepage": "https://github.com/karthik4423/bitespeed-identity-reconciliation#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
