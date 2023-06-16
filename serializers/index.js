@@ -1,5 +1,5 @@
 const serializerFunctions = {
-  identityReconciliation: () => {}
+  identityReconciliation: (result) => result
 };
 
 module.exports = serializerFunctions;
